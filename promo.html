@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+
+    <link href='/final/fullcalendar-5.11.0/lib/main.css' rel='stylesheet' >
+    <script src='/final/fullcalendar-5.11.0/lib/main.js'></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+
+    </script>
+
+    <title>Document</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+
+<body>
+    <h1><a href=project.html>🎬︎ 영화 <브로커></a></h1>
+    <h2>🍿 2022.06.08 대개봉</h2>
+
+    <hr>
+
+    <div class='cover-one'>
+        <div>✨ 출연 / 송강호 강동원 배두나 이지은 이주영<br>✨ 감독 / 고레에다 히로카즈</div>
+        <div>✨ 이제, 우리랑 행복해지자 ✨ </div>
+    </div>
+
+    <hr>
+
+    <div class='cover-two'>
+        <div><a href=info.html>✨ 영화 정보 ✨</a></div>
+        <div><a href=promo.html>✨ 프로모션 일정 ✨</a></div>
+        <div><a href=event.html>✨ 이벤트 ✨</a></div>
+    </div>
+
+
+    
+    <div id='calendar'></div>
+
+    <br>
+    
+    <div style="border:2px solid white; padding:50px; color:white; text-align:center; font-family:hahmlet; font-size:25pt;margin:100px;">
+        준비 중입니다. 사이트 이용에 불편을 드려 죄송합니다.
+    </div>
+
+</body>
+</html>
